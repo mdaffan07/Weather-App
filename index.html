@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-Forecast</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" name="cityName" id="cityName" placeholder="Search for a city....">
+        <button id="searchBtn">Search</button>
+
+        <div class="weather">
+            <div class="city-weather">
+                <div class="today-city-weather">
+                    <h1 class="city-name"></h1>
+                    <div class="weather-data">
+                        <h1 class="weather-type">Weather: -</h1>
+                        <p class="temperature">Temperature: -</p>
+                        <p class="feels-like">Feels Like: -</p>
+                        <p class="min-max">Min / Max Temp : -</p>
+                        <p class="pressure">Pressure: - hPa</p>
+                        <p class="humidity">Humidity: -%</p>
+                        <p class="visibility">Visibility: - m</p>
+                        <p class="wind-speed">Wind Speed: - m/s</p>
+                    </div>
+                </div>
+
+                <div class="today-city-weather">
+                    <div class="centered">
+                        <div class="heading">
+                            <h1 class="day"></h1>
+                        </div>
+                        <h3 class="date"></h3>
+                        <h4 class="time"></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
